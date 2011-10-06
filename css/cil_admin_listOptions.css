@@ -1,0 +1,238 @@
+#cil_item_wrap h2 {
+	line-height: 50px;
+	font-size: 28px;
+	color:#555;
+	margin-bottom:5px;
+}
+
+#cil_item_wrap h2 img {
+	vertical-align: middle;
+}
+
+#cil_item_wrap>p {
+	width:600px;
+}
+
+#cil_item_cil_item_content {
+	width:500px;
+	color:#666;
+	font-size: 14px;
+	margin:0 0 15px 0;
+}
+
+/*//////////////////////////////*/
+
+.cil_admin_list_items {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	margin-right: 25px;
+	border-radius:5px;
+	width: 600px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+#create_new_item_header {
+	display: inline;
+	height: 15px;
+	padding:7px;
+	background-color: #eee;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	line-height: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #2175a5;
+	cursor: pointer;
+	clear: both;
+}
+
+#create_new_item_header:hover {
+	color: #e50;
+}
+
+#cil_item_wrap p.cil_list_label {
+	margin-bottom: 3px;
+	color: #777;
+}
+
+.cil_admin_list_items li {
+	height: 25px;
+	display: block;
+	background-color: #eee;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin: 0;
+	line-height: 25px;
+	font-size: 12px;
+	overflow: hidden;
+
+}
+
+.cil_admin_list_items li:first-child {
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.cil_admin_list_items li:last-child {
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.cil_admin_list_items .cil_list_item_btn {
+	display: inline-block;
+	background-color: #F9F9F9;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ccc;
+	height: 24px;
+	color: #2175a5;
+
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.1, rgb(228,228,228)),
+	    color-stop(0.9, rgb(238,238,238))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(228,228,228) 10%,
+	    rgb(238,238,238) 90%
+	);
+
+}
+
+.cil_admin_list_items .cil_list_item_btn:hover, .cil_admin_list_items .active {
+	cursor: pointer;
+	color: #e50;
+
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.1, rgb(220,220,220)),
+	    color-stop(0.9, rgb(230,230,230))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(220,220,220) 10%,
+	    rgb(230,230,230) 90%
+	);
+
+}
+
+.cil_admin_list_items .cil_hide_btn {
+	border-top: 1px solid #eee;
+	float:left;
+}
+
+.cil_admin_list_items .cil_hide_btn:hover {
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #E8E8E8;
+}
+
+.cil_admin_list_items .cil_item_edit_btn {
+	float: right;
+	height: 25px;
+	border-right: none;
+}
+
+.cil_admin_list_items .cil_item_edit_btn:hover {
+ 	border-left: 1px solid #ccc;
+ 	border-right: 1px solid #ccc;
+ 	border-right: none;
+}
+
+.cil_admin_list_items li:first-child .cil_list_item_btn:first-child {
+	border-top-left-radius:5px;
+}
+
+.cil_admin_list_items .cil_item_delete_btn {
+	float: right;
+	height: 25px;
+	border-right: none;
+}
+
+.cil_admin_list_items .cil_item_delete_btn:hover {
+	border-right: none;
+}
+
+.cil_admin_list_items .cil_item_heading{
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 8px;
+	height: 24px;
+	max-width: 98px;
+	color: #777;
+	font-size: 12px;
+	font-family: serif;
+	float:left;
+	overflow: hidden;
+}
+
+.cil_admin_list_items .cil_item_content {
+	display: inline-block;
+	width:320px;
+	height:25px;
+	overflow: hidden;
+	float:left;
+	margin:0;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.cil_admin_list_items .cil_name_link .cil_item_heading {
+	color: #2175a5;
+}
+
+.cil_admin_list_items .cil_name_link .cil_item_heading:hover {
+	color: #e50;
+}
+
+#cil_edit_item_form {
+	height:0;
+	margin-top: 10px;
+	overflow:hidden;
+}
+
+#cil_item_wrap form p {
+	margin-bottom:20px;
+}
+
+#cil_item_wrap input[type=text], #cil_item_wrap textarea {
+	width: 550px;
+	margin-top:10px;
+	margin-bottom:5px;
+	font-size:14px;
+	color:#777;
+}
+
+#cil_item_wrap textarea {
+	height: 100px;
+}
+
+#cil_item_wrap input[type=button], #cil_item_wrap input[type=submit] {
+	cursor:pointer;
+}
+
+#cil_item_wrap label span {
+	font-size: 16px;
+	color:#555;
+}
+
+#cil_item_cancel_button {
+	margin-left: 15px;
+}
+
+.cil_item_image {
+	float:left;
+	margin-left: 5px;
+	margin-top: 4px;
+	vertical-align: middle;
+	width:15px;
+	height:15px;
+}
